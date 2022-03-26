@@ -1,0 +1,13 @@
+{
+  "name": "tor-fileserver",
+  "author": "Christopher Scott",
+  "license": "MIT",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "./scripts/start.sh"
+  },
+  "dependencies": {
+    "nanoexpress": "^5.2.3"
+  }
+}
