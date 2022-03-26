@@ -14,7 +14,9 @@ cd tor-fileserver
 
 Place desired files into `tor-fileserver/files` directory.
 
-You can access files via `address.onion/files/filename.ext`. Onion address will be printed to console when you run `./start.sh`
+You can access files via `address.onion/files/filename.ext`. 
+
+Onion address will be printed to console when you run `./start.sh`
 
 ## Development
 
