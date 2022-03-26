@@ -6,7 +6,7 @@ VOLUME /root/files
 
 ## Install pre-req software
 RUN apt-get update && apt-get install -y \
-  curl tor
+  curl procps tor
 
 ## Download and install nodejs
 RUN curl -fsSL https://deb.nodesource.com/setup_17.x | bash - \
